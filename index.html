@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anshul Yoga Studio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4fdf7;
+}
+
+/* Navbar */
+nav {
+    background: #0f5132;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #198754, #20c997);
+    color: white;
+}
+.hero h1 {
+    font-size: 40px;
+}
+.hero a {
+    padding: 12px 25px;
+    background: white;
+    color: #198754;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Section */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Form */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+button {
+    background: #198754;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #0f5132;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div><b>Anshul Yoga Studio</b></div>
+    <div>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#classes">Classes</a>
+        <a href="#register">Register</a>
+    </div>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>Transform Your Body & Mind</h1>
+    <p>Professional Yoga Classes by Anshul</p>
+
+    <!-- WhatsApp Group Button -->
+    <a href="https://chat.whatsapp.com/BG6gjwmhgAp1ThUdwf2sOk?mode=gi_t" target="_blank">
+        Join WhatsApp Yoga Class 🧘‍♂️
+    </a>
+
+    <!-- Register Button -->
+    <a href="#register">
+        Register Now
+    </a><div class="section">
+    <h2>Pay Fees Online</h2>
+
+    <a href="upi://pay?pa=anshulkotnala100-3@2oksbi&pn=Anshul%20Yoga%20Studio&am=700&cu=INR" 
+       style="display:inline-block;padding:12px 25px;background:#198754;color:white;text-decoration:none;border-radius:5px;">
+       
+       Pay ₹700 via UPI 💳
+    </a>
+</div>
+</div>
+
+<!-- About -->
+<div id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a certified yoga trainer helping people achieve a healthy and peaceful life through yoga.
+        My classes focus on physical fitness, mental relaxation, and overall well-being.
+    </p>
+
+    <h3 style="color:#198754;">💰 Fee Structure</h3>
+    <p style="font-size:18px;"><b>Online Classes:</b> ₹700 / Month</p>
+</div>
+
+<!-- Classes -->
+<div id="classes" class="section">
+    <h2>Our Classes</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Morning Yoga</h3>
+            <p>6:00 AM - 7:00 AM</p>
+        </div>
+        <div class="card">
+            <h3>Evening Yoga</h3>
+            <p>6:00 PM - 7:00 PM</p>
+        </div>
+        <div class="card">
+            <h3>Online Classes</h3>
+            <p>Join from anywhere</p>
+        </div>
+    </div>
+</div>
+
+<!-- Registration -->
+<div id="register" class="section">
+    <h2>Register for Classes</h2>
+
+    <form action="anshulkotnala100@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <input type="tel" name="Phone" placeholder="Phone Number" required>
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+<!-- Contact -->
+<div class="section">
+    <h2>Contact</h2>
+    <p>📞 Phone: +91 8126832919</p>
+    <p>📍 Uttarakhand, India</p>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Anshul Yoga Studio | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
